@@ -1,6 +1,6 @@
-var cryptor = require('../utils/cryptor.js');
+var cryptor = require('./utils/cryptor.js');
 
-exports.contentpool = function(getUserName) {
+module.exports = exports  = function(getUserName) {
 	return {
 		apiKey: '',	 
 		login: function(req, res, next) {

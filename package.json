@@ -1,10 +1,10 @@
 {
   "name": "express-contentpool",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "express middleware to use with contentpool.io",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/test.js"
   },
   "repository": {
     "type": "git",
