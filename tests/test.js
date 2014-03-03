@@ -1,3 +1,3 @@
-var contentpool = require('../index.js');
-contentpool.apiKey = 'apiKey';
-console.log(contentpool.apiKey);
+var contentpool = require('../index.js')('apiKey');
+var userToken = contentpool.generateUserToken('username');
+console.log(userToken);
