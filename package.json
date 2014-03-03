@@ -1,0 +1,27 @@
+{
+  "name": "express-contentpool",
+  "version": "0.0.1",
+  "description": "express middleware to use with contentpool.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kelkes/express-contentpool.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "contentpool"
+  ],
+  "author": "David Wippel (kelkes)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kelkes/express-contentpool/issues"
+  },
+  "homepage": "https://github.com/kelkes/express-contentpool",
+  "dependencies": {
+    "crypto": "0.0.3"
+  }
+}
