@@ -1,6 +1,6 @@
 {
   "name": "express-contentpool",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "express middleware to use with contentpool.io",
   "main": "index.js",
   "scripts": {
