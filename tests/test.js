@@ -1,11 +1,3 @@
-var contentpoolFactory = require('../index.js');
-
-console.log(contentpoolFactory);
-
-var getUserName = function(req) { return "test"};
-
-var contentpool = contentpoolFactory(getUserName);
-
+var contentpool = require('../index.js');
 contentpool.apiKey = 'apiKey';
-
 console.log(contentpool.apiKey);
