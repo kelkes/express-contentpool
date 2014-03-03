@@ -3,7 +3,7 @@ var cryptor = require('./utils/cryptor.js'),
 
 module.exports = exports = {
 	apiKey: '',
-	login: function(res, req, userName) {
+	login: function(req, res, userName) {
 		if (!req.cookies.contentPoolAuth) {
 			var userToken = {
 				username: userName,
