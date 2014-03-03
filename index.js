@@ -14,7 +14,7 @@ module.exports = exports = function(apiKey) {
 		},
 		login: function(req, res, userName) {
 			if (!req.cookies.contentPoolAuth) {
-				var userToken = this.generateUserToken();
+				var userToken = this.generateUserToken(userName);
 				var encryptedUserToken = cryptor.encrypt(JSON.stringify(userToken), userToken.apiKey);
 				res.cookie('contentPoolAuth', encryptedUserToken);
 			}
