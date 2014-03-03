@@ -6,7 +6,7 @@ exports.contentpool = function(getUserName) {
 		login: function(req, res, next) {
 			if (!req.cookies.contentPoolAuth) {
 				var userToken = {
-					username: getUserName(),
+					username: getUserName(req),
 					role: 'admin',
 					contentBlockIds: [],
 					apiKey: apiKey
@@ -20,6 +20,6 @@ exports.contentpool = function(getUserName) {
 		logout: function(req, res, next) {
 			res.clearCookie('contentPoolAuth');
 			return next();
-		};
+		}
 	};
 };
