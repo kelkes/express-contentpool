@@ -1,4 +1,5 @@
-var cryptor = require('./utils/cryptor.js');
+var cryptor = require('./utils/cryptor.js'),
+	express = require('express');
 
 module.exports = exports = {
 	apiKey: '',
